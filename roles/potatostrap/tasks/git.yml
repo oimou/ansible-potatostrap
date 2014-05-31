@@ -2,3 +2,7 @@
 - name: Install git
   sudo: yes
   yum: name=git state=latest
+
+- name: Install git-flow
+  sudo: yes
+  yum: name=git-flow state=latest
