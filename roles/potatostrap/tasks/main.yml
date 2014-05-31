@@ -1,4 +1,7 @@
 ---
+# Setup yum environment
+- include: yum.yml tags=yum
+
 # Setup curl environment
 - include: curl.yml tags=curl
 
