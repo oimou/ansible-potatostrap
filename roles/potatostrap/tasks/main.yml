@@ -1,0 +1,12 @@
+---
+# Setup curl environment
+- include: curl.yml tags=curl
+
+# Setup git environment
+- include: git.yml tags=git
+
+# Setup vim environment
+- include: vim.yml tags=vim
+
+# Setup zsh environment
+- include: zsh.yml tags=zsh
