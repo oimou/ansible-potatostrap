@@ -9,7 +9,7 @@
   shell: rm install.sh
 
 - name: Setup vimrc
-  shell: wget https://gist.githubusercontent.com/oimou/ee384a1bbf820ea772c9/raw/04be50c90b3fb8d0096eac56d46293da4e7f4f47/.vimrc -O .vimrc
+  shell: wget https://gist.githubusercontent.com/oimou/ee384a1bbf820ea772c9/raw/edfa1628485c3baff2533b1cf669fa7a30eff8e9/.vimrc -O .vimrc
 
 - name: NeoBundleInstall
   shell: vim +":NeoBundleInstall" +:q
