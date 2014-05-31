@@ -5,3 +5,6 @@
 
 - name: Setup zshrc
   shell: wget https://gist.githubusercontent.com/oimou/9c68d8217ec7d5a6abbe/raw/4f49608e4ba8c12a026c38a046dc4776a2e2f0a7/.zshrc -O .zshrc
+
+- name: Change default shell
+  shell: echo /bin/zsh | sudo chsh ec2-user

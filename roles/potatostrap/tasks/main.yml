@@ -10,3 +10,6 @@
 
 # Setup zsh environment
 - include: zsh.yml tags=zsh
+
+# Setup node environment
+- include: node.yml tags=node
