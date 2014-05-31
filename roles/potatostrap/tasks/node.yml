@@ -1,4 +1,8 @@
 ---
+- name: Update yum
+  sudo: yes
+  shell: yum update -y
+
 - name: Install epel repository
   sudo: yes
   shell: rpm -Uvh http://ftp-srv2.kddilabs.jp/Linux/distributions/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm
