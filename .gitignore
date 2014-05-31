@@ -1,0 +1,7 @@
+# test
+playbook.yml
+hosts
+
+# vim
+.*.swp
+.*~
