@@ -5,4 +5,4 @@
 
 - name: Install git-flow
   sudo: yes
-  yum: name=git-flow state=latest
+  yum: name=gitflow state=latest
