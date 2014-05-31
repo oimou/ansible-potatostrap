@@ -1,0 +1,7 @@
+---
+- name: Install tmux
+  sudo: yes
+  yum: name=tmux state=latest
+
+- name: Setup vimrc
+  shell: wget https://gist.githubusercontent.com/oimou/d352dcaa113111db6ef1/raw/ff3554da06dd7a72a41eb1c9c43d49eb0fe6ccc9/.tmux.conf -O .tmux.conf

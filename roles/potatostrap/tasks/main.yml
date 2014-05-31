@@ -14,5 +14,8 @@
 # Setup zsh environment
 - include: zsh.yml tags=zsh
 
+# Setup tmux environment
+- include: tmux.yml tags=tmux
+
 # Setup node environment
 - include: node.yml tags=node
