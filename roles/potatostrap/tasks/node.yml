@@ -1,4 +1,4 @@
 ---
 - name: Install node
   sudo: yes
-  yum: name=npm state=latest
+  yum: name=npm state=latest enablerepo=epel

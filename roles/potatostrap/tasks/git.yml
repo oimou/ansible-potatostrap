@@ -5,4 +5,5 @@
 
 - name: Install git-flow
   sudo: yes
-  yum: name=gitflow state=latest
+  yum: name=gitflow state=latest enablerepo=epel
+  ignore_errors: yes
